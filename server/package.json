@@ -1,0 +1,28 @@
+{
+  "name": "247-checkers_ws_multiplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/ws": "^8.5.4",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "pino": "^8.10.0",
+    "ws": "^8.12.1"
+  }
+}
